@@ -1,0 +1,65 @@
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Java build directories
+# Maven / Gradle / Ant build directories
+target/
+build/
+out/
+
+# Dependency directories
+/.mvn/
+.gradle/
+
+# Java bytecode
+*.class
+
+# Logs
+*.log
+
+# JetBrains specific
+*.swp
+# Temporary files
+*.bak
+*.tmp
+
+# IntelliJ IDEA project files (specific)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+
+# Eclipse project files (if applicable)
+.project
+.classpath
+.settings/
+
+# OS-specific files
+# Windows
+Thumbs.db
+Desktop.ini
+# macOS
+.DS_Store
+# Linux
+.directory
+
+# Maven wrapper
+.mvn/wrapper/
+
+# SSM specific files (if applicable)
+*.log
+*.db
+*.sqlite3
+*.h2.db
+
+# Files related to testing
+/coverage/
+*.test/
+*.scoverage
+*.gcov
+
+# IDE-specific configuration (PyCharm, VSCode, etc.)
+.vscode/
